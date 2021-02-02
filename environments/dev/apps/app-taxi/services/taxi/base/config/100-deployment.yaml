@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/part-of: app-taxi
     spec:
       containers:
-      - image: image-registry.openshift-image-registry.svc:5000/dev/taxi:master-6fc93538015dc6f381f8b405cb34c57ae0fc9dcc
+      - image: image-registry.openshift-image-registry.svc:5000/dev/taxi:master-1aa795b54149169d18c9e4365c6ef7bbeab92627
         imagePullPolicy: Always
         name: taxi
         ports:
